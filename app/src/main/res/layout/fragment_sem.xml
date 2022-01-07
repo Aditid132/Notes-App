@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SemFragment"
+    android:background="@drawable/gradient_background">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/sec_background"
+        android:layout_alignParentEnd="true"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sem"
+        android:text="SEMESTER"
+        android:textColor="#0B0B0B"
+        android:textSize="40sp"
+        android:textStyle="italic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:layout_centerInParent="true">
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:id="@+id/Firstbtn"
+            android:layout_below="@id/sem"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_background"
+            android:text="First"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:padding="10dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:id="@+id/Secondbtn"
+            android:layout_below="@id/sem"
+            android:background="@drawable/button_background"
+            android:text="Second"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:id="@+id/Thirdbtn"
+            android:layout_below="@id/Firstbtn"
+            android:background="@drawable/button_background"
+            android:text="Third"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:id="@+id/Fourthbtn"
+            android:layout_below="@id/Secondbtn"
+            android:background="@drawable/button_background"
+            android:text="Fourth"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:id="@+id/Fifthbtn"
+            android:layout_below="@id/Thirdbtn"
+            android:background="@drawable/button_background"
+            android:text="Fifth"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:id="@+id/Sixthbtn"
+            android:layout_below="@id/Fourthbtn"
+            android:background="@drawable/button_background"
+            android:text="Six"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:layout_gravity="center_horizontal"/>
+    </GridLayout>
+
+</RelativeLayout>
+
+</FrameLayout>

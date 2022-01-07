@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SubjectsFragment"
+    android:background="@drawable/gradient_background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/sec_background"
+        android:layout_alignParentEnd="true"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/branch"
+        android:text="SUBJECT"
+        android:textColor="#0B0B0B"
+        android:textSize="40sp"
+        android:textStyle="italic"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"/>
+
+
+    <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+        android:padding="15dp">
+
+
+      <androidx.appcompat.widget.AppCompatButton
+          android:layout_width="match_parent"
+          android:layout_height="80dp"
+          android:id="@+id/subject1"
+          android:layout_marginTop="130dp"
+          android:background="@drawable/button_background"
+          android:text="Subject 1"
+          android:textColor="@color/white"
+          android:textSize="25sp"
+          android:padding="10dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:id="@+id/subject2"
+            android:layout_below="@+id/subject1"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_background"
+            android:text="Subject 2"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:padding="10dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:id="@+id/subject3"
+            android:layout_below="@+id/subject2"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_background"
+            android:text="Subject 3"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:padding="10dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:id="@+id/subject4"
+            android:layout_below="@+id/subject3"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_background"
+            android:text="Subject 4"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:padding="10dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:id="@+id/subject5"
+            android:layout_below="@+id/subject4"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_background"
+            android:text="Subject 5"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:padding="10dp"/>
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>

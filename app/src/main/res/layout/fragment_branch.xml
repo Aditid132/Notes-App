@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BranchFragment"
+    android:background="@drawable/gradient_background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/sec_background"
+        android:layout_alignParentEnd="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/branch"
+            android:text="BRANCH"
+            android:textColor="#0B0B0B"
+            android:textSize="40sp"
+            android:textStyle="italic"
+         android:layout_centerInParent="true"
+
+            />
+    </RelativeLayout>
+
+
+
+
+<GridLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:columnCount="2"
+    android:layout_gravity="center"
+    >
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:id="@+id/csebtn"
+        android:background="@drawable/button_background"
+        android:text="CSE"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:padding="18dp"
+        android:layout_margin="10dp"
+
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:id="@+id/cebtn"
+        android:background="@drawable/button_background"
+        android:text="CE"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:padding="18dp"
+        android:layout_margin="10dp"
+
+
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:id="@+id/eeebtn"
+        android:background="@drawable/button_background"
+        android:text="EEE"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:padding="18dp"
+        android:layout_margin="10dp"
+
+
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:id="@+id/mebtn"
+        android:background="@drawable/button_background"
+        android:text="ME"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:padding="18dp"
+        android:layout_margin="10dp"
+
+        />
+</GridLayout>
+
+</FrameLayout>

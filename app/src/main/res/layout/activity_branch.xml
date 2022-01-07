@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BranchActivity"
+    android:background="@drawable/gradient_background">
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="80dp"-->
+<!--        android:background="@drawable/sec_background"-->
+<!--        android:layout_alignParentEnd="true"/>-->
+
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/branch"-->
+<!--        android:text="BRANCH"-->
+<!--        android:textColor="#0B0B0B"-->
+<!--        android:textSize="40sp"-->
+<!--        android:textStyle="italic"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="20dp"-->
+
+<!--        />-->
+
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:layout_width="130dp"-->
+<!--        android:layout_height="130dp"-->
+<!--        android:id="@+id/csebtn"-->
+<!--        android:layout_below="@id/branch"-->
+<!--        android:layout_marginTop="80dp"-->
+<!--        android:layout_marginStart="30dp"-->
+<!--        android:background="@drawable/button_background"-->
+<!--        android:text="CSE"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="35sp"-->
+<!--        android:padding="18dp"-->
+<!--        android:layout_gravity="center_horizontal"-->
+
+<!--        />-->
+
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:layout_width="130dp"-->
+<!--        android:layout_height="130dp"-->
+<!--        android:id="@+id/civilbtn"-->
+<!--        android:layout_below="@id/branch"-->
+<!--        android:layout_marginTop="80dp"-->
+<!--        android:layout_marginStart="200dp"-->
+<!--        android:background="@drawable/button_background"-->
+<!--        android:text="CE"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="35sp"-->
+<!--        android:padding="18dp"-->
+<!--        android:layout_gravity="center_horizontal"-->
+
+<!--        />-->
+
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:layout_width="130dp"-->
+<!--        android:layout_height="130dp"-->
+<!--        android:id="@+id/eeebtn"-->
+<!--        android:layout_below="@id/csebtn"-->
+<!--        android:layout_marginTop="40dp"-->
+<!--        android:layout_marginStart="30dp"-->
+<!--        android:background="@drawable/button_background"-->
+<!--        android:text="EEE"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="35sp"-->
+<!--        android:padding="18dp"-->
+<!--        android:layout_gravity="center_horizontal"-->
+
+<!--        />-->
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:layout_width="130dp"-->
+<!--        android:layout_height="130dp"-->
+<!--        android:id="@+id/mechbtn"-->
+<!--        android:layout_below="@id/civilbtn"-->
+<!--        android:layout_marginTop="40dp"-->
+<!--        android:layout_marginStart="200dp"-->
+<!--        android:background="@drawable/button_background"-->
+<!--        android:text="ME"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="35sp"-->
+<!--        android:padding="18dp"-->
+<!--        android:layout_gravity="center_horizontal"-->
+
+<!--        />-->
+
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/nav" />
+</RelativeLayout>

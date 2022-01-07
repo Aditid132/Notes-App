@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/branchFragment">
+    <fragment
+        android:id="@+id/branchFragment"
+        android:name="com.example.gate.BranchFragment"
+        android:label="fragment_branch"
+        tools:layout="@layout/fragment_branch" >
+        <action
+            android:id="@+id/action_branchFragment_to_semFragment2"
+            app:destination="@id/semFragment2" />
+        <action
+            android:id="@+id/action_branchFragment_to_semFragment22"
+            app:destination="@id/semFragment2" />
+        <action
+            android:id="@+id/action_branchFragment_to_semFragment23"
+            app:destination="@id/semFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/semFragment2"
+        android:name="com.example.gate.SemFragment"
+        android:label="fragment_sem"
+        tools:layout="@layout/fragment_sem" >
+        <action
+            android:id="@+id/action_semFragment2_to_subjectsFragment"
+            app:destination="@id/subjectsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/subjectsFragment"
+        android:name="com.example.gate.SubjectsFragment"
+        android:label="fragment_subjects"
+        tools:layout="@layout/fragment_subjects" >
+        <action
+            android:id="@+id/action_subjectsFragment_to_listFragment"
+            app:destination="@id/listFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/listFragment"
+        android:name="com.example.gate.ListFragment"
+        android:label="fragment_list"
+        tools:layout="@layout/fragment_list" />
+</navigation>
